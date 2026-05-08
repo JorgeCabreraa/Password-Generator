@@ -3,7 +3,7 @@ import secrets
 def generar_password():
     #utilizando las librerias de numeros, digitos y caracteres
     caracteres = string.ascii_letters + string.digits + string.punctuation
-    while true:
+    while True:
         try:
             #Intentamos convertir la entrada a un numero entero
             longitud = int(input("Ingrese el tamaño de la contraseña: "))
